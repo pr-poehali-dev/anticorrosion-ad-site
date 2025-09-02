@@ -196,7 +196,7 @@ const Index = () => {
             <Card className="text-center border-2 border-gray-200 hover:border-automotive-orange transition-colors duration-300">
               <CardContent className="p-8 space-y-6">
                 <h3 className="text-2xl font-bold text-automotive-steel">Базовая</h3>
-                <div className="text-4xl font-bold text-automotive-orange">15 000 ₽</div>
+                <div className="text-4xl font-bold text-automotive-orange my-3 mx-0 px-0 py-0">от 15 000 ₽</div>
                 <ul className="space-y-3 text-gray-600">
                   <li>✓ Обработка кузова</li>
                   <li>✓ Защита днища</li>
@@ -214,7 +214,7 @@ const Index = () => {
               </div>
               <CardContent className="p-8 space-y-6">
                 <h3 className="text-2xl font-bold text-automotive-steel">Стандарт</h3>
-                <div className="text-4xl font-bold text-automotive-orange">25 000 ₽</div>
+                <div className="text-4xl font-bold text-automotive-orange py-0"> от 25 000 ₽</div>
                 <ul className="space-y-3 text-gray-600">
                   <li>✓ Полная обработка</li>
                   <li>✓ Скрытые полости</li>
@@ -230,7 +230,7 @@ const Index = () => {
             <Card className="text-center border-2 border-gray-200 hover:border-automotive-orange transition-colors duration-300">
               <CardContent className="p-8 space-y-6">
                 <h3 className="text-2xl font-bold text-automotive-steel">Премиум</h3>
-                <div className="text-4xl font-bold text-automotive-orange">35 000 ₽</div>
+                <div className="text-4xl font-bold text-automotive-orange">от 35 000 ₽</div>
                 <ul className="space-y-3 text-gray-600">
                   <li>✓ Все включено</li>
                   <li>✓ Премиум материалы</li>
@@ -259,23 +259,23 @@ const Index = () => {
                 <Icon name="Phone" size={32} className="text-white" />
               </div>
               <h3 className="text-xl font-semibold">Телефон</h3>
-              <p className="text-gray-200">+7 (495) 123-45-67</p>
-              <p className="text-gray-200">Работаем 9:00 - 20:00</p>
+              <p className="text-gray-200">+7 (911) 207-48-30</p>
+              <p className="text-gray-200">Работаем 10:00 - 20:00</p>
             </div>
             <div className="space-y-4">
               <div className="w-16 h-16 bg-automotive-orange rounded-full flex items-center justify-center mx-auto">
                 <Icon name="MapPin" size={32} className="text-white" />
               </div>
               <h3 className="text-xl font-semibold">Адрес</h3>
-              <p className="text-gray-200">г. Москва, ул. Автосервисная, 15</p>
-              <p className="text-gray-200">м. Авиамоторная</p>
+              <p className="text-gray-200">г. Санкт-Петербург, г. Пушкин, ул. Автомобильная 4А2</p>
+              <p className="text-gray-200"></p>
             </div>
             <div className="space-y-4">
               <div className="w-16 h-16 bg-automotive-orange rounded-full flex items-center justify-center mx-auto">
                 <Icon name="Mail" size={32} className="text-white" />
               </div>
               <h3 className="text-xl font-semibold">Email</h3>
-              <p className="text-gray-200">info@antikorr.ru</p>
+              <p className="text-gray-200">STO-AvtoBest@yandex.ru</p>
               <p className="text-gray-200">Ответим в течение часа</p>
             </div>
           </div>

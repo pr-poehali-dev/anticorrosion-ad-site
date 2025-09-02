@@ -112,6 +112,99 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Why Need Anti-Corrosion Section */}
+      <section className="py-20 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-automotive-steel mb-4">Зачем нужна антикоррозийная обработка</h2>
+            <p className="text-xl text-gray-600">Защитите свой автомобиль от разрушительного воздействия коррозии</p>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div className="space-y-8">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0 mt-2">
+                  <Icon name="AlertTriangle" size={24} className="text-red-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-automotive-steel mb-2">Агрессивная среда</h3>
+                  <p className="text-gray-600">Соль на дорогах, реагенты, влага и перепады температур ускоряют коррозию металла</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0 mt-2">
+                  <Icon name="DollarSign" size={24} className="text-red-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-automotive-steel mb-2">Дорогой ремонт</h3>
+                  <p className="text-gray-600">Замена кузовных деталей обойдется в разы дороже профилактической обработки</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0 mt-2">
+                  <Icon name="TrendingDown" size={24} className="text-red-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-automotive-steel mb-2">Потеря стоимости</h3>
+                  <p className="text-gray-600">Коррозия значительно снижает рыночную стоимость автомобиля при продаже</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="space-y-8">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-2">
+                  <Icon name="Shield" size={24} className="text-green-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-automotive-steel mb-2">Надежная защита</h3>
+                  <p className="text-gray-600">Качественная обработка создает барьер, защищающий металл на долгие годы</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-2">
+                  <Icon name="TrendingUp" size={24} className="text-green-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-automotive-steel mb-2">Сохранение стоимости</h3>
+                  <p className="text-gray-600">Обработанный автомобиль сохраняет товарный вид и высокую цену продажи</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-2">
+                  <Icon name="Clock" size={24} className="text-green-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-automotive-steel mb-2">Долговечность</h3>
+                  <p className="text-gray-600">Увеличивает срок службы автомобиля и откладывает дорогостоящий ремонт</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="bg-automotive-light rounded-2xl p-8 text-center">
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="space-y-3">
+                <div className="text-4xl font-bold text-automotive-orange">5-7 лет</div>
+                <p className="text-gray-600">средний срок появления коррозии без защиты</p>
+              </div>
+              <div className="space-y-3">
+                <div className="text-4xl font-bold text-automotive-orange">150-300₽</div>
+                <p className="text-gray-600">стоимость обработки за 1 м² кузова</p>
+              </div>
+              <div className="space-y-3">
+                <div className="text-4xl font-bold text-automotive-orange">15-20₽</div>
+                <p className="text-gray-600">экономия на каждом рубле обработки в будущем</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section className="py-20 px-4 bg-automotive-light">
         <div className="container mx-auto max-w-6xl">

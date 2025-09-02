@@ -196,7 +196,7 @@ const Index = () => {
             <Card className="text-center border-2 border-gray-200 hover:border-automotive-orange transition-colors duration-300">
               <CardContent className="p-8 space-y-6">
                 <h3 className="text-2xl font-bold text-automotive-steel">Базовая</h3>
-                <div className="text-4xl font-bold text-automotive-orange my-3 mx-0 px-0 py-0">от 15 000 ₽</div>
+                <div className="text-4xl font-bold text-automotive-orange my-3 mx-0 px-0 py-0">от 15000 ₽</div>
                 <ul className="space-y-3 text-gray-600">
                   <li>✓ Обработка кузова</li>
                   <li>✓ Защита днища</li>
@@ -214,7 +214,7 @@ const Index = () => {
               </div>
               <CardContent className="p-8 space-y-6">
                 <h3 className="text-2xl font-bold text-automotive-steel">Стандарт</h3>
-                <div className="text-4xl font-bold text-automotive-orange py-0"> от 25 000 ₽</div>
+                <div className="text-4xl font-bold text-automotive-orange py-0">от 25000 ₽</div>
                 <ul className="space-y-3 text-gray-600">
                   <li>✓ Полная обработка</li>
                   <li>✓ Скрытые полости</li>
@@ -230,7 +230,7 @@ const Index = () => {
             <Card className="text-center border-2 border-gray-200 hover:border-automotive-orange transition-colors duration-300">
               <CardContent className="p-8 space-y-6">
                 <h3 className="text-2xl font-bold text-automotive-steel">Премиум</h3>
-                <div className="text-4xl font-bold text-automotive-orange">от 35 000 ₽</div>
+                <div className="text-4xl font-bold text-automotive-orange">от 35000 ₽</div>
                 <ul className="space-y-3 text-gray-600">
                   <li>✓ Все включено</li>
                   <li>✓ Премиум материалы</li>
